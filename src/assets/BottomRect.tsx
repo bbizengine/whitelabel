@@ -8,11 +8,11 @@ function BottomRect(props: IProps) {
   const { className } = props;
   return (
     <div className={`${className}`}>
-      <svg width="100%" height="" viewBox="0 0 893 72">
-        <path
-          fill="#fff"
-          d="M892.25 71.7201L0 71.7199L892.25 3.41805e-06L892.25"
-        />
+      {/* <svg viewBox="0 0 2880 250" xmlns="http://www.w3.org/2000/svg">
+        <path d="M720 125L2160 0H2880V250H0V125H720Z" fill="white"></path>
+      </svg> */}
+      <svg viewBox="0 0 1920 150">
+        <polygon fill="#F3F4F6" points="0 150 1920 150 1920 0 0 150" />
       </svg>
     </div>
   );

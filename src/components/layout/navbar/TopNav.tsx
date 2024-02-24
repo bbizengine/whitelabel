@@ -3,6 +3,7 @@
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
 import bbizIcon from "@/../public/bbizwl.svg";
+import bbizWhite from "@/../public/bbizwlwhite.svg";
 
 export default function TopNav() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -23,11 +24,15 @@ export default function TopNav() {
       className={`${
         isScrolled
           ? "bg-white drop-shadow-xl justify-center md:justify-start"
-          : "border-b bg-white/0 justify-center duration-500 "
+          : "bg-white/0 justify-center duration-500 "
       } fixed h-14 flex items-center z-50 gap-2 w-screen px-20 duration-500`}
     >
       <div className="relative aspect-square grid h-60 items-center justify-center">
-        <Image src={bbizIcon} alt="bbiz logo" fill />
+        {isScrolled ? (
+          <Image src={bbizIcon} alt="bbiz logo" fill />
+        ) : (
+          <Image src={bbizWhite} alt="bbiz logo" fill />
+        )}
       </div>
     </div>
   );
