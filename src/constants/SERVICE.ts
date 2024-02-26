@@ -28,19 +28,21 @@ export const SERVICE = [
           {
             name: "BBM Hemat",
             link: "https://bbmhemat.co.id/",
-            img: webBbmHemat, about: ""
+            img: webBbmHemat, 
+            about: "One of Magnercare's affiliator turns out to be one of the biggest Online news, B-Biz had an opportunity to create one for BERITAJatim for their SEO by making them a Backlinks "
           },
           {
             name: "BBIZ Legal",
             link: "https://bbizlegal.id/",
             img: webBbizLegal,
-            about: ""
+            about: "B-Biz Legal is one of B-Biz Project that connects One Stop Solution Legal services to our Customers"
           },
           {
             name: "BBIZ JOB",
             link: "https://bbizjob.com/",
             img: webBbizJob,
-            about: ""
+            about: "B-Biz Legal is one of B-Biz Project that connects Job Seeker and Companies for Job Scouting (Job Portal)"
+            
           },
         ],
       },
@@ -141,7 +143,7 @@ export const SERVICE = [
     src: "https://bbizengine.com/wp-content/uploads/2023/04/search-engine-optimization.webp",
     link: ROUTES.SEO,
     about:
-      "B-Biz ",
+      "B-Biz SEO team has more than 5 years of experiences with Google SERP's, We help clients to seek for their best Keyword to compete with their Competitors",
     projects: [
       {
         name: "Market Place / Moneysite",
