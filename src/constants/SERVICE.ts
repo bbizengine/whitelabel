@@ -23,21 +23,24 @@ export const SERVICE = [
             name: "Magnercare",
             link: "https://magnercare.com/",
             img: webMagner,
+            about: "Magnercare is one of B-Biz Engine's Project, We developed Magnercare based on Client's request. ",
           },
           {
             name: "BBM Hemat",
             link: "https://bbmhemat.co.id/",
-            img: webBbmHemat,
+            img: webBbmHemat, about: ""
           },
           {
             name: "BBIZ Legal",
             link: "https://bbizlegal.id/",
             img: webBbizLegal,
+            about: ""
           },
           {
             name: "BBIZ JOB",
             link: "https://bbizjob.com/",
             img: webBbizJob,
+            about: ""
           },
         ],
       },
@@ -48,16 +51,19 @@ export const SERVICE = [
             name: "B-Biz Engine",
             link: "https://bbizengine.com/",
             img: comproBbiz,
+            about: ""
           },
           {
             name: "Magnercare.net",
             link: "https://bbmhemat.co.id/",
             img: comproMagNet,
+            about: ""
           },
           {
             name: "Magnercare.org",
             link: "https://bbizlegal.id/",
             img: comproMagOrg,
+            about: ""
           },
         ],
       },
@@ -68,7 +74,7 @@ export const SERVICE = [
     src: "https://bbizengine.com/wp-content/uploads/2023/04/mobiledevelopment-removebg-preview.png",
     link: ROUTES.APPS,
     about:
-      " ",
+      "B-Biz Team consisted of experienced UI/UX that help client's maximize their App Experiences through Apps Development using Google Developer or Apple Developer",
     projects: [
       {
         name: "Market Place / Moneysite",
@@ -77,21 +83,25 @@ export const SERVICE = [
             name: "Magnercare",
             link: "https://magnercare.com/",
             img: "/src/assets/img/web-magner.jpeg",
+            about: ""
           },
           {
             name: "BBM Hemat",
             link: "https://bbmhemat.co.id/",
             img: "/src/assets/img/web-magner.jpeg",
+            about: ""
           },
           {
             name: "BBIZ Legal",
             link: "https://bbizlegal.id/",
             img: "/src/assets/img/web-magner.jpeg",
+            about: ""
           },
           {
             name: "BBIZ JOB",
             link: "https://bbizjob.com/",
             img: "/src/assets/img/web-magner.jpeg",
+            about: ""
           },
         ],
       },
@@ -102,21 +112,25 @@ export const SERVICE = [
             name: "Magnercare",
             link: "https://magnercare.com/",
             img: "/src/assets/img/web-magner.jpeg",
+            about: ""
           },
           {
             name: "BBM Hemat",
             link: "https://bbmhemat.co.id/",
             img: "/src/assets/img/web-magner.jpeg",
+            about: ""
           },
           {
             name: "BBIZ Legal",
             link: "https://bbizlegal.id/",
             img: "/src/assets/img/web-magner.jpeg",
+            about: ""
           },
           {
             name: "BBIZ JOB",
             link: "https://bbizjob.com/",
             img: "/src/assets/img/web-magner.jpeg",
+            about: ""
           },
         ],
       },
@@ -127,7 +141,7 @@ export const SERVICE = [
     src: "https://bbizengine.com/wp-content/uploads/2023/04/search-engine-optimization.webp",
     link: ROUTES.SEO,
     about:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Id aperiam error expedita quia molestiae tempora illum ill",
+      "B-Biz ",
     projects: [
       {
         name: "Market Place / Moneysite",
@@ -136,21 +150,26 @@ export const SERVICE = [
             name: "Magnercare",
             link: "https://magnercare.com/",
             img: "/src/assets/img/web-magner.jpeg",
+            about: ""
+
           },
           {
             name: "BBM Hemat",
             link: "https://bbmhemat.co.id/",
             img: "/src/assets/img/web-magner.jpeg",
+            about: ""
           },
           {
             name: "BBIZ Legal",
             link: "https://bbizlegal.id/",
             img: "/src/assets/img/web-magner.jpeg",
+            about: ""
           },
           {
             name: "BBIZ JOB",
             link: "https://bbizjob.com/",
             img: "/src/assets/img/web-magner.jpeg",
+            about: ""
           },
         ],
       },
@@ -161,21 +180,25 @@ export const SERVICE = [
             name: "Magnercare",
             link: "https://magnercare.com/",
             img: "/src/assets/img/web-magner.jpeg",
+            about: ""
           },
           {
             name: "BBM Hemat",
             link: "https://bbmhemat.co.id/",
             img: "/src/assets/img/web-magner.jpeg",
+            about: ""
           },
           {
             name: "BBIZ Legal",
             link: "https://bbizlegal.id/",
             img: "/src/assets/img/web-magner.jpeg",
+            about: ""
           },
           {
             name: "BBIZ JOB",
             link: "https://bbizjob.com/",
             img: "/src/assets/img/web-magner.jpeg",
+            about: ""
           },
         ],
       },
@@ -195,21 +218,25 @@ export const SERVICE = [
             name: "Magnercare",
             link: "https://magnercare.com/",
             img: "/src/assets/img/web-magner.jpeg",
+            about: ""
           },
           {
             name: "BBM Hemat",
             link: "https://bbmhemat.co.id/",
             img: "/src/assets/img/web-magner.jpeg",
+            about: ""
           },
           {
             name: "BBIZ Legal",
             link: "https://bbizlegal.id/",
             img: "/src/assets/img/web-magner.jpeg",
+            about: ""
           },
           {
             name: "BBIZ JOB",
             link: "https://bbizjob.com/",
             img: "/src/assets/img/web-magner.jpeg",
+            about: ""
           },
         ],
       },
@@ -220,21 +247,25 @@ export const SERVICE = [
             name: "Magnercare",
             link: "https://magnercare.com/",
             img: "/src/assets/img/web-magner.jpeg",
+            about: ""
           },
           {
             name: "BBM Hemat",
             link: "https://bbmhemat.co.id/",
             img: "/src/assets/img/web-magner.jpeg",
+            about: ""
           },
           {
             name: "BBIZ Legal",
             link: "https://bbizlegal.id/",
             img: "/src/assets/img/web-magner.jpeg",
+            about: ""
           },
           {
             name: "BBIZ JOB",
             link: "https://bbizjob.com/",
             img: "/src/assets/img/web-magner.jpeg",
+            about: ""
           },
         ],
       },
