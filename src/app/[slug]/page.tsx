@@ -22,8 +22,6 @@ export default function Dynamic() {
       setI(3);
     }
   }, [pathNow]);
-  console.log(pathNow);
-  console.log(i);
   const DATA = SERVICE[i];
   return (
     <div className="min-h-screen relative overflow-hidden  bg-[url('/assets/bg2.jpg')]  ">
@@ -46,12 +44,15 @@ export default function Dynamic() {
           </div>
         </div>
       </div>
-      <div className="flex flex-col flex-wrap justify-center w-screen gap-10 py-12 text-center md:px-20 bg-gradient-to-b from-gray-100 via-white to-gray-100">
+      <div className="flex flex-col flex-wrap justify-center w-screen gap-20 py-12 text-center group/isDiv md:px-20 bg-gradient-to-b from-gray-100 via-white to-gray-100">
         {Object.values(DATA.projects).map((projects, i) => (
           <div key={i} className="grid gap-6 place-items-center">
-            <label className="text-2xl font-bold text-center text-brand-dark">
-              {projects.name}
-            </label>
+            <div className="w-fit">
+              <label className="px-4 py-1 text-2xl font-bold text-center duration-500 rounded-full.name w-fit group-hover/isDiv:bg-brand/0 text-brand-dark">
+                {projects.name}
+              </label>
+              <div className="h-[4px] w-0 duration-500 group-hover/isDiv:w-full bg-brand rounded-full"></div>
+            </div>
             <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-4 md:flex-row">
               {projects.project.map((data: any, i: number) => (
                 <CardLink
