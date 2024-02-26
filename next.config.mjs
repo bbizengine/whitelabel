@@ -8,6 +8,11 @@ const nextConfig = {
         //   port: "",
         //   pathname: "",
       },
+      {
+        protocol: "https",
+        hostname: "magnercare-dev.s3.ap-southeast-1.amazonaws.com",
+        port: "",
+      },
     ],
   },
 };

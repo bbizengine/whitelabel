@@ -8,6 +8,7 @@ const font = Ubuntu({ subsets: ["latin"], weight: "300" });
 export const metadata: Metadata = {
   title: "B-Biz Whitelabel",
   description: "Connecting Technology and Business for Enterprise advancement",
+  // creator: "B-Biz Engine",
 };
 
 export default function RootLayout({

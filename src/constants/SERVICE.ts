@@ -68,7 +68,7 @@ export const SERVICE = [
     src: "https://bbizengine.com/wp-content/uploads/2023/04/mobiledevelopment-removebg-preview.png",
     link: ROUTES.APPS,
     about:
-      " ",
+      "We develop application on a wide range of open sources platform to ensure Client's and Their Customers are having their best App Experiences",
     projects: [
       {
         name: "Market Place / Moneysite",
@@ -182,8 +182,8 @@ export const SERVICE = [
     ],
   },
   {
-    name: "Server Hosting",
-    src: "https://bbizengine.com/wp-content/uploads/2023/04/web-hosting.webp",
+    name: "B-BIZ Engine",
+    src: "https://magnercare-prod.s3.ap-southeast-1.amazonaws.com/asset/collaborate/B-logo.svg",
     link: ROUTES.SERVER,
     about:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Id aperiam error expedita quia molestiae tempora illum ill",
