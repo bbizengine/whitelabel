@@ -13,7 +13,7 @@ export const SERVICE = [
     src: "https://bbizengine.com/wp-content/uploads/2023/04/webdevelopment-removebg-preview.png",
     link: ROUTES.WEB,
     about:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Id aperiam error expedita quia molestiae tempora illum ill",
+      "B-Biz Experiences Throughout Website and eCommerce building a professional Connection Between Tentant and Customer for their best Experiences, We work with all sorts of clients with a wide range of features and requirements based on client's Core Business.",
 
     projects: [
       {
@@ -68,7 +68,7 @@ export const SERVICE = [
     src: "https://bbizengine.com/wp-content/uploads/2023/04/mobiledevelopment-removebg-preview.png",
     link: ROUTES.APPS,
     about:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Id aperiam error expedita quia molestiae tempora illum ill",
+      " ",
     projects: [
       {
         name: "Market Place / Moneysite",
