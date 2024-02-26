@@ -1,3 +1,4 @@
+import Footer from "@/components/layout/navbar/Footer";
 import TopNav from "@/components/layout/navbar/TopNav";
 import NextTopLoader from "nextjs-toploader";
 import React, { ReactNode } from "react";
@@ -22,6 +23,7 @@ export default function Provider(props: IProps) {
       />
       <TopNav />
       {children}
+      <Footer />
     </div>
   );
 }

@@ -6,6 +6,12 @@ import webBbizJob from "@/assets/img/web/web-bbizjob.jpeg";
 import comproBbiz from "@/assets/img/compro/compro-bbizengine.jpeg";
 import comproMagNet from "@/assets/img/compro/compro-magner.jpeg";
 import comproMagOrg from "@/assets/img/compro/compro-magorg.jpeg";
+import bbizapp from "@/assets/img/app/bbizapp.png";
+import bbizeng from "@/assets/img/app/bbizeng.png";
+import seo from "@/assets/img/seo/seo.png";
+import backlinks from "@/assets/img/seo/backlinks.png";
+import blogs from "@/assets/img/seo/blog.png";
+import pos from "@/assets/img/engine/pos.png";
 
 export const SERVICE = [
   {
@@ -13,7 +19,7 @@ export const SERVICE = [
     src: "https://bbizengine.com/wp-content/uploads/2023/04/webdevelopment-removebg-preview.png",
     link: ROUTES.WEB,
     about:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Id aperiam error expedita quia molestiae tempora illum ill",
+      "B-Biz Experiences Throughout Website and eCommerce building a professional Connection Between Tentant and Customer for their best Experiences, We work with all sorts of clients with a wide range of features and requirements based on client's Core Business.",
 
     projects: [
       {
@@ -63,65 +69,32 @@ export const SERVICE = [
       },
     ],
   },
+
   {
     name: "Apps Development",
     src: "https://bbizengine.com/wp-content/uploads/2023/04/mobiledevelopment-removebg-preview.png",
     link: ROUTES.APPS,
     about:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Id aperiam error expedita quia molestiae tempora illum ill",
+      "We develop application on a wide range of open sources platform to ensure Client's and Their Customers are having their best App Experiences",
     projects: [
       {
-        name: "Market Place / Moneysite",
+        name: "App Development",
         project: [
           {
-            name: "Magnercare",
-            link: "https://magnercare.com/",
-            img: "/src/assets/img/web-magner.jpeg",
+            name: "B-Biz App",
+            link: "",
+            img: bbizapp,
           },
           {
-            name: "BBM Hemat",
-            link: "https://bbmhemat.co.id/",
-            img: "/src/assets/img/web-magner.jpeg",
-          },
-          {
-            name: "BBIZ Legal",
-            link: "https://bbizlegal.id/",
-            img: "/src/assets/img/web-magner.jpeg",
-          },
-          {
-            name: "BBIZ JOB",
-            link: "https://bbizjob.com/",
-            img: "/src/assets/img/web-magner.jpeg",
-          },
-        ],
-      },
-      {
-        name: "Company Profile",
-        project: [
-          {
-            name: "Magnercare",
-            link: "https://magnercare.com/",
-            img: "/src/assets/img/web-magner.jpeg",
-          },
-          {
-            name: "BBM Hemat",
-            link: "https://bbmhemat.co.id/",
-            img: "/src/assets/img/web-magner.jpeg",
-          },
-          {
-            name: "BBIZ Legal",
-            link: "https://bbizlegal.id/",
-            img: "/src/assets/img/web-magner.jpeg",
-          },
-          {
-            name: "BBIZ JOB",
-            link: "https://bbizjob.com/",
-            img: "/src/assets/img/web-magner.jpeg",
+            name: "B-Biz Engine",
+            link: "",
+            img: bbizeng,
           },
         ],
       },
     ],
   },
+
   {
     name: "SEO Services",
     src: "https://bbizengine.com/wp-content/uploads/2023/04/search-engine-optimization.webp",
@@ -130,111 +103,82 @@ export const SERVICE = [
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Id aperiam error expedita quia molestiae tempora illum ill",
     projects: [
       {
-        name: "Market Place / Moneysite",
+        name: "SEO Services",
         project: [
           {
-            name: "Magnercare",
-            link: "https://magnercare.com/",
-            img: "/src/assets/img/web-magner.jpeg",
+            name: "On Page SEO",
+            link: "",
+            img: seo,
           },
           {
-            name: "BBM Hemat",
-            link: "https://bbmhemat.co.id/",
-            img: "/src/assets/img/web-magner.jpeg",
+            name: "Backlinks",
+            link: "",
+            img: backlinks,
           },
           {
-            name: "BBIZ Legal",
-            link: "https://bbizlegal.id/",
-            img: "/src/assets/img/web-magner.jpeg",
-          },
-          {
-            name: "BBIZ JOB",
-            link: "https://bbizjob.com/",
-            img: "/src/assets/img/web-magner.jpeg",
-          },
-        ],
-      },
-      {
-        name: "Company Profile",
-        project: [
-          {
-            name: "Magnercare",
-            link: "https://magnercare.com/",
-            img: "/src/assets/img/web-magner.jpeg",
-          },
-          {
-            name: "BBM Hemat",
-            link: "https://bbmhemat.co.id/",
-            img: "/src/assets/img/web-magner.jpeg",
-          },
-          {
-            name: "BBIZ Legal",
-            link: "https://bbizlegal.id/",
-            img: "/src/assets/img/web-magner.jpeg",
-          },
-          {
-            name: "BBIZ JOB",
-            link: "https://bbizjob.com/",
-            img: "/src/assets/img/web-magner.jpeg",
+            name: "Blogs",
+            link: "",
+            img: blogs,
           },
         ],
       },
     ],
   },
+
   {
-    name: "Server Hosting",
-    src: "https://bbizengine.com/wp-content/uploads/2023/04/web-hosting.webp",
-    link: ROUTES.SERVER,
+    name: "B-BIZ Engine",
+    src: "https://magnercare-prod.s3.ap-southeast-1.amazonaws.com/asset/collaborate/B-logo.svg",
+    link: ROUTES.BBIZ,
     about:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Id aperiam error expedita quia molestiae tempora illum ill",
     projects: [
       {
-        name: "Market Place / Moneysite",
+        name: "POS (Point of Sales)",
         project: [
           {
-            name: "Magnercare",
-            link: "https://magnercare.com/",
-            img: "/src/assets/img/web-magner.jpeg",
+            name: "Product",
+            link: "https://inventory-whitelabel.bbiz.co.id/login",
+            img: pos,
           },
           {
-            name: "BBM Hemat",
-            link: "https://bbmhemat.co.id/",
-            img: "/src/assets/img/web-magner.jpeg",
+            name: "Inventory",
+            link: "https://inventory-whitelabel.bbiz.co.id/login",
+            img: pos,
           },
           {
-            name: "BBIZ Legal",
-            link: "https://bbizlegal.id/",
-            img: "/src/assets/img/web-magner.jpeg",
+            name: "Order",
+            link: "https://inventory-whitelabel.bbiz.co.id/login",
+            img: pos,
           },
           {
-            name: "BBIZ JOB",
-            link: "https://bbizjob.com/",
-            img: "/src/assets/img/web-magner.jpeg",
-          },
-        ],
-      },
-      {
-        name: "Company Profile",
-        project: [
-          {
-            name: "Magnercare",
-            link: "https://magnercare.com/",
-            img: "/src/assets/img/web-magner.jpeg",
+            name: "Warehouse",
+            link: "https://inventory-whitelabel.bbiz.co.id/login",
+            img: pos,
           },
           {
-            name: "BBM Hemat",
-            link: "https://bbmhemat.co.id/",
-            img: "/src/assets/img/web-magner.jpeg",
+            name: "Customer",
+            link: "https://inventory-whitelabel.bbiz.co.id/login",
+            img: pos,
           },
           {
-            name: "BBIZ Legal",
-            link: "https://bbizlegal.id/",
-            img: "/src/assets/img/web-magner.jpeg",
+            name: "Payment",
+            link: "https://inventory-whitelabel.bbiz.co.id/login",
+            img: pos,
           },
           {
-            name: "BBIZ JOB",
-            link: "https://bbizjob.com/",
-            img: "/src/assets/img/web-magner.jpeg",
+            name: "Supplier",
+            link: "https://inventory-whitelabel.bbiz.co.id/login",
+            img: pos,
+          },
+          {
+            name: "Admin Log",
+            link: "https://inventory-whitelabel.bbiz.co.id/login",
+            img: pos,
+          },
+          {
+            name: "Admin Management",
+            link: "https://inventory-whitelabel.bbiz.co.id/login",
+            img: pos,
           },
         ],
       },

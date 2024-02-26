@@ -1,31 +1,23 @@
-import React from "react";
-import CardOne from "../card/CardOne";
-import { SERVICE } from "@/constants/SERVICE";
 import Link from "next/link";
+import React from "react";
 
 export default function Body() {
+  const phoneWaBbiz = "81233838383";
   return (
-    <div className="bg-gradient-to-b from-gray-100 via-white to-gray-100 flex flex-col gap-3 py-12">
-      <label className="font-bold text-center text-2xl text-brand-dark">
-        Our Service
-      </label>
-      {/* <div className="flex justify-center"> */}
-      <div className="flex flex-col md:flex-row flex-wrap justify-center gap-10 items-center">
-        {SERVICE.map((data, i) => (
-          <Link href={data.link} key={i} className="flex justify-center">
-            <CardOne
-              className={`${
-                i % 2 === 0
-                  ? "bg-white rounded-xl drop-shadow-md "
-                  : "hover:bg-gray-100 hover:drop-shadow-md rounded-lg"
-              } p-3 hover:scale-110 duration-500`}
-              name={data.name}
-              src={data.src}
-              about={data.about}
-            />
-          </Link>
-        ))}
-        {/* </div> */}
+    <div className="relative flex flex-col items-center justify-center overflow-hidden group min-h-52">
+      <div className="bg-center bg-cover absolute group-hover:scale-110 bg-[url('/assets/bg3.jpg')] duration-1000 h-full w-full"></div>
+      <div className="absolute w-full h-full bg-center bg-cover group-hover:scale-110 bg-black/70"></div>
+      <div className="z-10 flex flex-col items-center justify-center w-full h-full gap-10">
+        <h2 className="font-black text-center text-white md:text-3xl">
+          Ready to start your project with us ?
+        </h2>
+        <Link
+          href={`https://api.whatsapp.com/send?phone=62${phoneWaBbiz}&text=Hello B-Biz Engine`}
+          className="px-5 py-1 font-black duration-500 rounded-full hover:scale-110 hover:bg-brand-light bg-brand w-fit"
+          target="_blank"
+        >
+          Contact Us Now
+        </Link>
       </div>
     </div>
   );

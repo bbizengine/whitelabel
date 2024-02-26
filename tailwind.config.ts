@@ -18,6 +18,7 @@ const config: Config = {
           DEFAULT: "#06D6FC",
           dark: "#00455E",
           light: "#41FFF2",
+          bone: "#F4F7FF",
         },
       },
       fontFamily: {
