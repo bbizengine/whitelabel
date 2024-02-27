@@ -24,4 +24,5 @@ jobs:
             git pull
             yarn install
             yarn build
-            pm2 reload ecosystem-production.config.js
+            pm2 stop ecosystem-production.config.js
+            pm2 start ecosystem-production.config.js
