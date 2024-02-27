@@ -29,21 +29,29 @@ export const SERVICE = [
             name: "Magnercare",
             link: "https://magnercare.com/",
             img: webMagner,
+            about:
+              "Magnercare is one of B-Biz Engine's Project, We developed Magnercare based on Client's request. ",
           },
           {
             name: "BBM Hemat",
             link: "https://bbmhemat.co.id/",
             img: webBbmHemat,
+            about:
+              "One of Magnercare's affiliator turns out to be one of the biggest Online news, B-Biz had an opportunity to create one for BERITAJatim for their SEO by making them a Backlinks ",
           },
           {
             name: "BBIZ Legal",
             link: "https://bbizlegal.id/",
             img: webBbizLegal,
+            about:
+              "B-Biz Legal is one of B-Biz Project that connects One Stop Solution Legal services to our Customers",
           },
           {
             name: "BBIZ JOB",
             link: "https://bbizjob.com/",
             img: webBbizJob,
+            about:
+              "B-Biz Legal is one of B-Biz Project that connects Job Seeker and Companies for Job Scouting (Job Portal)",
           },
         ],
       },
@@ -54,16 +62,19 @@ export const SERVICE = [
             name: "B-Biz Engine",
             link: "https://bbizengine.com/",
             img: comproBbiz,
+            about: "",
           },
           {
             name: "Magnercare.net",
             link: "https://bbmhemat.co.id/",
             img: comproMagNet,
+            about: "",
           },
           {
             name: "Magnercare.org",
             link: "https://bbizlegal.id/",
             img: comproMagOrg,
+            about: "",
           },
         ],
       },
@@ -75,7 +86,7 @@ export const SERVICE = [
     src: "https://bbizengine.com/wp-content/uploads/2023/04/mobiledevelopment-removebg-preview.png",
     link: ROUTES.APPS,
     about:
-      "We develop application on a wide range of open sources platform to ensure Client's and Their Customers are having their best App Experiences",
+      "B-Biz Team consisted of experienced UI/UX that help client's maximize their App Experiences through Apps Development using Google Developer or Apple Developer",
     projects: [
       {
         name: "App Development",
@@ -100,7 +111,7 @@ export const SERVICE = [
     src: "https://bbizengine.com/wp-content/uploads/2023/04/search-engine-optimization.webp",
     link: ROUTES.SEO,
     about:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Id aperiam error expedita quia molestiae tempora illum ill",
+      "B-Biz SEO team has more than 5 years of experiences with Google SERP's, We help clients to seek for their best Keyword to compete with their Competitors",
     projects: [
       {
         name: "SEO Services",
@@ -130,7 +141,7 @@ export const SERVICE = [
     src: "https://magnercare-prod.s3.ap-southeast-1.amazonaws.com/asset/collaborate/B-logo.svg",
     link: ROUTES.BBIZ,
     about:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Id aperiam error expedita quia molestiae tempora illum ill",
+      "B-Biz Engine is our main Source White-label that created perfect Software on Client’s necessity",
     projects: [
       {
         name: "POS (Point of Sales)",
