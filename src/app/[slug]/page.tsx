@@ -27,12 +27,12 @@ export default function Dynamic() {
     <div className="min-h-screen relative overflow-hidden  bg-[url('/assets/bg2.jpg')]  ">
       <div className="relative w-screen bg-center bg-cover">
         <BottomRect className="absolute z-10 w-screen -bottom-10 md:-bottom-1" />
-        <div className=" md:h-[60vh] lg:h-screen w-screen grid md:grid-cols-2">
+        <div className="pt-20 md:h-[60vh] lg:h-screen w-screen grid md:grid-cols-2">
           <div className="flex flex-col items-center justify-center gap-3 px-2 text-black lg:px-20">
             <h1 className="text-xl font-bold lg:text-4xl ">{DATA.name}</h1>
             <h2 className="text-sm">{DATA.about}</h2>
           </div>
-          <div className="relative aspect-square bg-gradient-to-r from-white/0 via-white to-white">
+          <div className="relative aspect-square md:bg-gradient-to-r from-white/0 via-white to-white">
             <div className="bg-white">
               <Image
                 src={DATA.src}
